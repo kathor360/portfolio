@@ -1,12 +1,55 @@
 @import "tailwindcss";
+@theme{
+/* CSS HEX */
+--mint: #00b896ff;
+--alice-blue: #d6e1e7ff;
+--licorice: #12020fff;
+--jungle-green: #03A687ff;
+--viridian: #029177ff;
+--pine-green: #027C67ff;
+--pine-green-2: #016758ff;
+--brunswick-green: #015248ff;
+--brunswick-green-2: #003D38ff;
+
+/* CSS HSL */
+--mint: hsla(169, 100%, 36%, 1);
+--alice-blue: hsla(201, 26%, 87%, 1);
+--licorice: hsla(311, 80%, 4%, 1);
+
+/* SCSS HEX */
+$mint: #00b896ff;
+$alice-blue: #d6e1e7ff;
+$licorice: #12020fff;
+
+/* SCSS HSL */
+$mint: hsla(169, 100%, 36%, 1);
+$alice-blue: hsla(201, 26%, 87%, 1);
+$licorice: hsla(311, 80%, 4%, 1);
+
+/* SCSS RGB */
+$mint: rgba(0, 184, 150, 1);
+$alice-blue: rgba(214, 225, 231, 1);
+$licorice: rgba(18, 2, 15, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #00b896ff, #d6e1e7ff, #12020fff);
+$gradient-right: linear-gradient(90deg, #00b896ff, #d6e1e7ff, #12020fff);
+$gradient-bottom: linear-gradient(180deg, #00b896ff, #d6e1e7ff, #12020fff);
+$gradient-left: linear-gradient(270deg, #00b896ff, #d6e1e7ff, #12020fff);
+$gradient-top-right: linear-gradient(45deg, #00b896ff, #d6e1e7ff, #12020fff);
+$gradient-bottom-right: linear-gradient(135deg, #00b896ff, #d6e1e7ff, #12020fff);
+$gradient-top-left: linear-gradient(225deg, #00b896ff, #d6e1e7ff, #12020fff);
+$gradient-bottom-left: linear-gradient(315deg, #00b896ff, #d6e1e7ff, #12020fff);
+$gradient-radial: radial-gradient(#00b896ff, #d6e1e7ff, #12020fff);
+}
 
 html,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Space Grotesk", sans-serif;
-  background: #0a0a0a;
-  color: #f3f4f6;
+  font-family: "Lexend", sans-serif;
+  color: #d6e1e7ff;
+  background: #12020fff;
 }
 
 @layer utilities {
@@ -48,3 +91,4 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+

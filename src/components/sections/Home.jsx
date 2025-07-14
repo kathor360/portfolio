@@ -8,7 +8,7 @@ export const Home = () => {
     >
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-yellow-400 to-amber-500 bg-clip-text text-transparent leading-right">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-jungle-green via-pine-green to-brunswick-green-2 bg-clip-text text-transparent leading-right">
             Hi, I'm Kathleen O'Rourke
           </h1>
 
@@ -20,14 +20,14 @@ export const Home = () => {
           <div className="flex justify-center space-x-4">
   <a
     href="#projects"
-    className="bg-amber-600 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(217,119,6,0.4)] hover:bg-amber-700"
+    className="bg-amber-600 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(217,119,6,0.4)] hover:text-amber-400"
   >
     View Projects
   </a>
 
   <a
     href="#contact"
-    className="border border-amber-500/50 text-amber-400 py-3 px-6 rounded font-medium transition-all duration-200 
+    className="border border-mint-500/50 text-amber-400 py-3 px-6 rounded font-medium transition-all duration-200 
    hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(245,158,11,0.3)] hover:bg-amber-500/10"
   >
     Contact Me
